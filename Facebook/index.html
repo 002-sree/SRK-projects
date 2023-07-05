@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="facebook.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a class="logo-text" href="index.html">facebook</a>
+
+            </div>
+            <div class="login">
+                <form action="">
+                <table class="login-controls">
+                    <tr>
+                        <td><label class="login-lable">Email or Mobile</label></td>
+                        <td><label class="login-lable">Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>       
+                        <td><input class="submit-btn" type="submit" value="Login"></td>            
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="forgotten" href="forgotten.html">Forgotten account?</a></td>
+                    </tr>
+                </table>
+                </form>
+            
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="para">Facebook helps you connect and share with the<br> people in your life</p>
+                <img class="image" src="https://fast-citadel-52170.herokuapp.com/assets/map-6a5e76c3a9f8cc9ef9fddec521278cfbe6f40f44ff9cce880fe7e91b4f386d0b.png">
+
+            </div>
+            <div class="right-section">
+                <h1></h1>
+                <p class="para2">Create an account</p>
+                <p class="para3">it's free and always will be.</p>
+                <form action="" id="signup-form">
+                    <input name="fname" type="text" placeholder="First name">
+                    <input name="sname" type="text" placeholder="Last name">
+                    <br>
+                    <br>
+                    <input name="emailAddress" class="email" type="text" placeholder=" Mobile number or Email address">
+                    <br>
+                    <br>
+                    <input name="password"   class="newpassword" type="text" placeholder="New Password">
+                    <br>
+                    <p class="day">Birthday</p>
+                    <select name="day" id="dob">
+                        <option value="">Day</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        
+                    </select>    
+                    <select name="month" id="" class="dob">
+                        <option value="">Month</option>
+                        <option value="">January</option>
+                        <option value="">February</option>
+                        <option value="">March</option>
+                        <option value="">April</option>
+                        <option value="">May</option>
+                        <option value="">June</option>
+                    </select>           
+                    <select name="year" id="dob">
+                        <option value="">Year</option>
+                        <option value="">1999</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        
+                    </select>
+                    <p class="para4">Why I need to provide my<br> birthday? </p>
+                    <br>
+                    <input name="gender" type="radio">
+                    <label class="male">Male</label>
+                    <input name="gender" type="radio">
+                    <label class="female">Female</label>
+                    <br>
+                    <button class="create">Create an account</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
